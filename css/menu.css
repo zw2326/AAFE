@@ -1,0 +1,15 @@
+.menu-top-section {
+  height: 200px;
+  background-image: url("../images/menu-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 30px;
+  background-color: #E8E8E8;
+}
