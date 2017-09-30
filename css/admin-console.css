@@ -1,5 +1,54 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
 .admin-console-main {
   position: fixed;
   top: 0px;
   left: 40px;
+  right: 0px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.admin-console-top {
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+
+.admin-console-left {
+  float: left;
+  width: 25%;
+}
+
+.list-header {
+  background-color: #E8E8E8;
+  font-size: 30px;
+}
+
+.service-list > li, .setting-list > li {
+  border-style: groove;
+  border-width: 1px 0 0 0;
+  padding:.5em;
+  font-size: 20px;
+}
+
+.service-list, .setting-list {
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.admin-console-middle {
+  float: left;
+  width: 5%;
+  border-style: groove;
+}
+
+.admin-console-right {
+  float: left;
+  width: 70%;
+  border-style: groove;
 }
