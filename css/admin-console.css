@@ -41,14 +41,22 @@
   margin-bottom: 100px;
 }
 
-.admin-console-middle {
-  float: left;
-  width: 5%;
-  border-style: groove;
-}
-
 .admin-console-right {
   float: left;
-  width: 70%;
-  border-style: groove;
+  width: 72%;
+  margin-left: 3%;
+  border-left: solid #E8E8E8;
+}
+
+.edgar-service-item, .edgar-service-item-last {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.edgar-service-item {
+  border-bottom-style: solid;
+  border-bottom-color: #e5e5e5;
+  border-bottom-width: 1px;
 }
